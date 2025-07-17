@@ -1,0 +1,8 @@
+services:
+  - name: aismart-airdrop-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    autoDeploy: true
+    plan: starter
+    region: frankfurt
